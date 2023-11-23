@@ -293,9 +293,9 @@ MonoBehaviour:
     A for Attack
 
     S to Die
+    (permanent)
 
-    D
-    for Walk'
+    D for Walk'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -769,6 +769,9 @@ MonoBehaviour:
   - parameterName: isFocusing
     parameterType: 0
     keyCode: 119
+  - parameterName: Dead
+    parameterType: 1
+    keyCode: 115
 --- !u!212 &1215306623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1167,6 +1170,8 @@ MonoBehaviour:
 
     A
     for throw
+
+    S to Die (permanent)
 
     D for Walk'
   m_isRightToLeft: 0
